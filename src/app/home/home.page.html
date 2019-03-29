@@ -1,12 +1,60 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-title>Badges</ion-title>
 </ion-header>
 
-<ion-content padding>
-  <p>{{text}}</p>
-  <ion-button (click)="onChangeText()">Click Me</ion-button>
-</ion-content>
+<ion-content>
+
+  <ion-card>
+
+    <img src="assets/img/bjork-live.jpg"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        Björk
+      </ion-card-title>
+      <p>
+        Björk first came to prominence as one of the lead vocalists of the avant pop Icelandic sextet the Sugarcubes, but when...
+      </p>
+    </ion-card-content>
+
+    <ion-item>
+      <ion-icon name='musical-notes' item-start style="color: #d03e84"></ion-icon>
+      Albums
+      <ion-badge item-end>9</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name='logo-twitter' item-start style="color: #55acee"></ion-icon>
+      Followers
+      <ion-badge item-end>260k</ion-badge>
+    </ion-item>
+
+  </ion-card>
+
+  <ion-card>
+  <img src="assets/img/defina.jpg"/>
+
+  <ion-card-content>
+    <ion-card-title>
+      Marcos Defina
+    </ion-card-title>
+    <p>
+      Defina is a hot web dev expert
+    </p>
+  </ion-card-content>
+
+  <ion-item>
+    <ion-icon name='musical-notes' item-start style="color: #d03e84"></ion-icon>
+    Albums
+    <ion-badge item-end>17</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name='logo-twitter' item-start style="color: #55acee"></ion-icon>
+    Followers
+    <ion-badge item-end>260M</ion-badge>
+  </ion-item>
+</ion-card>
+
+  </ion-content>
+
