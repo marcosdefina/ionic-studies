@@ -1,65 +1,66 @@
 <ion-header>
-    <ion-toolbar>
-        <ion-title>Home</ion-title>
-        <ion-buttons slot="start">
-            <ion-button href="/home">Home</ion-button>
-            <ion-button href="/adv-cards">Maps</ion-button>
-        </ion-buttons>
-      </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="start">
+        <ion-button href="/home">Home</ion-button>
+        <ion-button href="/adv-cards">Maps</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+<link rel="stylesheet" type="text/css" href="assets/css/celulas.css" />
+<link rel="screen" type="text/css" href="./screen.css" />
+<script src="celulas.js" language="javascript" type="text/javascript"></script>
 </ion-header>
+<ion-content nLoad="play('assets/sound/intro')" src="asset">
+  <table style="width:100%">
+    <tr>
+      <th style="text-align: left;">
+        <img id="tl" src="assets/gifs/celulabg.gif" width="255px" height="168px" />
+      </th>
+      <th></th>
+      <th style="text-align: right;">
+        <img id="tr" src="assets/gifs/celulabg.gif" width="255px" height="168px" />
+      </th>
+    </tr>
+    <tr>
+      <th>
+          <img id="know" class="m_out" src="assets/gifs/know.gif" width="177px" height="72px" onMouseOver="this.className='m_over'"
+          onmouseout="this.className='m_out'" onClick="window.open('know/select.html', '', 'width=790px,height=600px')" />
+      </th>
+      <th></th>
+      <th>
+          <img id="test" class="m_out" src="assets/gifs/test.gif" width="174px" height="38px" onMouseOver="this.className='m_over'" 
+          onmouseout="this.className='m_out'" onClick="window.open('ex1/ex1.html', '', 'width=790px,height=600px')" />
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>
+        <img style="text-align: center" id="video" src="assets/gifs/intro.gif" width="320px" height="240px" />
+      </th>
+      <th></th>
+    </tr>
+    <tr>
+      <th>
+        <img id="bl" src="assets/gifs/celulabg.gif" width="255px" height="168px" />
+      </th>
+      <th></th>
+      <th>
+        <img id="br" src="assets/gifs/celulabg.gif" width="255px" height="168px" />
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <img id="help" class="m_out" src="assets/gifs/help.gif" width="105px" height="45px" onMouseOver="this.className='m_over'" 
+          onmouseout="this.className='m_out'" onClick="window.open('help.html', '', 'width=710px,height=550px,scrollbars')" />
+      </th>
+      <th></th>
+      <th>
+        <img id="sobre" class="m_out" src="assets/gifs/sobre.gif" width="105px" height="36px" onMouseOver="this.className='m_over'" 
+          onmouseout="this.className='m_out'" onClick="window.open('sobre.html', '', 'width=710px,height=550px')" />
+      </th>
+    </tr>
 
-<ion-content>
-  <ion-card>
-  <img src="assets/img/defina.jpg"/>
-
-  <ion-card-content>
-    <ion-card-title>
-      Marcos Defina
-    </ion-card-title>
-    <p>
-      Defina is a hot mid-level web developer
-    </p>
-  </ion-card-content>
-
-  <ion-item>
-    <ion-icon name='musical-notes' item-start style="color: #d03e84"></ion-icon>
-    Albums
-    <ion-badge item-end>17</ion-badge>
-  </ion-item>
-
-  <ion-item>
-    <ion-icon name='logo-twitter' item-start style="color: #55acee"></ion-icon>
-    Followers
-    <ion-badge item-end>260M</ion-badge>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-
-    <img src="https://raw.githubusercontent.com/ionic-team/ionic-preview-app/master/src/assets/img/bjork-live.jpg"/>
-
-    <ion-card-content>
-      <ion-card-title>
-        Björk
-      </ion-card-title>
-      <p>
-        Björk first came to prominence as one of the lead vocalists of the avant pop Icelandic sextet the Sugarcubes, but when...
-      </p>
-    </ion-card-content>
-
-    <ion-item>
-      <ion-icon name='musical-notes' item-start style="color: #d03e84"></ion-icon>
-      Albums
-      <ion-badge item-end>9</ion-badge>
-    </ion-item>
-
-    <ion-item>
-      <ion-icon name='logo-twitter' item-start style="color: #55acee"></ion-icon>
-      Followers
-      <ion-badge item-end>260k</ion-badge>
-    </ion-item>
-
-  </ion-card>
-
-  </ion-content>
+  </table>
+<div id="sound"></div>
+</ion-content>
 
