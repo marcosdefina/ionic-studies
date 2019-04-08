@@ -1,0 +1,22 @@
+	img		{position: absolute; left: 50%; top: 50%}
+	#video	{margin-left: -160px; margin-top: -120px}
+	#tl		{margin-left: -355px; margin-top: -271px}
+	#tr 	{margin-left: 100px; margin-top: -271px}
+	#bl 	{margin-left: -355px; margin-top: 80px}
+	#br 	{margin-left: 100px; margin-top: 80px}
+	#know 	{margin-left: -316px; margin-top: -235px}
+	#test	{margin-left: 141px; margin-top: -218px}
+	#help 	{margin-left: -280px; margin-top: 140px}
+	#sobre 	{margin-left: 175px; margin-top: 144px}
+
+.center {
+	align-content: center,
+};
+
+.left {
+	align-content: left,
+}
+
+.right {
+	align-content: right,
+}
